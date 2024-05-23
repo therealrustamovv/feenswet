@@ -1,0 +1,354 @@
+@import "../base/global.css";
+
+@import "../modules/projects.css";
+@import "../modules/donate.css";
+@import "../modules/news.css";
+@import "../modules/events.css";
+
+/* header start */
+.header {
+  background: url(../../assets/images/header-img.png) no-repeat center;
+  background-size: cover;
+  padding-bottom: 64px;
+  height: 735px;
+}
+.header__info {
+  padding-top: 145px;
+}
+.header__column {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 192px;
+}
+.header__title {
+  max-width: 640px;
+  color: var(--white);
+  font-family: "Roboto700";
+  font-size: 64px;
+  line-height: 120%;
+  margin-bottom: 50px;
+}
+.header__buttons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.header__btn {
+  color: var(--primary-text);
+  font-family: "Roboto500";
+  font-size: 16px;
+  padding: 16px 32px;
+  text-align: center;
+  border-radius: 4px;
+  background: var(--white);
+}
+.header__video {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.header__icon {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-text);
+  background-color: var(--white);
+  border-radius: 15px;
+  font-size: 10px;
+}
+.header__video__title {
+  color: var(--white);
+  font-family: "Roboto500";
+  font-size: 16px;
+}
+.header__row {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.header__text {
+  color: var(--white);
+  font-family: "Roboto500";
+  font-size: 18px;
+}
+.header__hr {
+  max-width: 860px;
+  height: 1px;
+  background: #e5e5e5;
+  flex-grow: 1;
+}
+/* header end */
+
+/* about start */
+#about {
+  padding: 96px 0px 65px;
+}
+.about__exam {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+.left__info {
+  display: flex;
+  gap: 24px;
+}
+.left__hr {
+  width: 72px;
+  height: 2px;
+  background-color: var(--primary-text);
+  margin-top: 8px;
+}
+.left__min {
+  color: var(--primary-text);
+  font-family: "Roboto700";
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+.left__title {
+  max-width: 610px;
+  color: var(--primary-text);
+  font-family: "Roboto700";
+  font-size: 48px;
+  line-height: 120%;
+  margin-bottom: 32px;
+}
+.left__text {
+  max-width: 607px;
+  color: var(--secondary-text);
+  font-family: "Roboto400";
+  font-size: 16px;
+  line-height: 160%;
+  margin-bottom: 48px;
+}
+.left__btn {
+  color: var(--white);
+  font-family: "Roboto500";
+  font-size: 16px;
+  padding: 16px 32px;
+  border-radius: 4px;
+  background: #70c174;
+}
+.about__home__img {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 480px;
+  cursor: pointer;
+}
+.about__icon {
+  position: absolute;
+  background-color: var(--white);
+  width: 64px;
+  height: 64px;
+  padding: 20px;
+  border-radius: 80px;
+  right: 0;
+  left: 0;
+}
+.about__box {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+}
+.about__title {
+  color: var(--primary-text);
+  font-family: "Roboto500";
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.about__images {
+  display: flex;
+  justify-content: space-between;
+}
+.about__img {
+  max-width: 142px;
+  height: 27px;
+}
+/* about end */
+
+/* services start */
+#services {
+  background: #eff7f2;
+  padding: 96px 0px;
+}
+.services__exam {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.services__center {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 24px;
+}
+.services__box {
+  display: flex;
+  gap: 24px;
+}
+.services__box__img {
+  max-width: 28px;
+  height: 28px;
+}
+.services__card__title {
+  color: var(--primary-text);
+  font-family: "Roboto700";
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+.services__card__text {
+  max-width: 384px;
+  color: var(--secondary-text);
+  font-family: "Roboto400";
+  font-size: 16px;
+  line-height: 160%;
+}
+/* services end */
+
+/* donation start */
+
+.don__black {
+  background: #0b0706;
+  padding: 96px 0px;
+}
+.don__black__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.don__black__card {
+  display: flex;
+  flex-direction: column;
+}
+.don__black__title {
+  max-width: 611px;
+  color: var(--white);
+  font-family: "Roboto700";
+  font-size: 48px;
+  line-height: 120%;
+  margin-bottom: 16px;
+}
+.don__black__text {
+  max-width: 606px;
+  color: var(--white);
+  font-family: "Roboto400";
+  font-size: 16px;
+  line-height: 160%;
+  margin-bottom: 32px;
+}
+.don__colors {
+  max-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.don__color {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.color {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  background: #bef3c0;
+}
+.color2 {
+  background: #ac94f1;
+}
+.color3 {
+  background: #fff0ca;
+}
+.color4 {
+  background: #f9cf64;
+}
+.color5 {
+  background: #f38fbf;
+}
+.color__text {
+  color: var(--white);
+  font-family: "Roboto500";
+  font-size: 16px;
+  line-height: 160%;
+}
+/* donation end */
+
+/* responsive start */
+@media (max-width: 1100px) {
+  .about__exam,
+  .services__exam,
+  .services__center {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+  }
+  .left__hr {
+    display: none;
+  }
+  .don__black__box {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+}
+@media (max-width: 1000px) {
+  .about__images {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+@media (max-width: 670px) {
+  .header__column {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .header__row {
+    display: none;
+  }
+  h2,
+  p {
+    text-align: center;
+  }
+  .don__colors {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .services__img,
+  .don__black__img {
+    width: 100%;
+    margin: 20px;
+  }
+  .about__home__img{
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .header__title,
+  .left__title {
+    font-size: 35px;
+  }
+  .header__buttons {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+}
